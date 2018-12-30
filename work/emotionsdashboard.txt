@@ -1,0 +1,28 @@
+
+
+
+
+<script>
+
+// grab image 
+"Image capture: https://x-team.com/blog/webcam-capture-vue/"
+
+// analyze image
+  methods: {
+    getDataDoStuffWithData: function () {
+      const formData = new FormData();
+        formData.append('app_key', 'd08c791a788349a4bcfcaec6818a1c76');
+        formData.append('url', 'https://static1.squarespace.com/static/569295f525981daa98f80256/5727b751d210b8a998423309/5727b752859fd05df76bfb14/1462220660854/John+Hinds+Smiling.jpg?format=1000w');
+      axios.post("https://api-face.sightcorp.com/api/detect/", formData)
+    .then(function (result) {
+      console.log(result);
+    }, function (error) {
+      console.log(error);
+    });
+}
+  }
+}
+
+// visualize data
+"https://www.chartjs.org/samples/latest/" 
+</script>
