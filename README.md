@@ -1,6 +1,9 @@
 # Emotions Dashboard
 
-## Mockup
+## Prototype
+[feelings dashboard](https://milesccoleman.com/feelingsdashboard/examples/clm_emotiondetection.html)
+
+## Potential Mockup
 ![edb mockup](https://github.com/milesccoleman/emotionsdashboard/blob/master/Presentation1.png?raw=true "Emotions Dashboard Mockup")
 
 ## Recognizing the Face
